@@ -26,7 +26,7 @@ options {
 
     dnssec-validation no;  // Desativa a validação DNSSEC.
     minimal-responses yes;  // Respostas mínimas, enviando apenas os dados necessários na resposta DNS.
-    version "Empresa FatecSeg";  // Define uma string personalizada para a versão do BIND que será exibida.
+    version "Empresa Fatec ADS";  // Define uma string personalizada para a versão do BIND que será exibida.
     allow-query-cache { rede_interna; };  // Permite cache de consultas para a ACL "rede_interna".
     allow-query { any; };  // Permite consultas DNS de qualquer origem.
     allow-recursion { rede_interna; };  // Permite recursão DNS apenas para a ACL "rede_interna".
