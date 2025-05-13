@@ -40,5 +40,5 @@ wget https://raw.githubusercontent.com/tmferreira-ti/ASOR/main/Confs/srv2/interf
 #rm -f latest.tar.gz
 
 #chown www-data: -R /dados/paginas/fatecseg/
-
-reboot
+systemctl restart networking
+#reboot
