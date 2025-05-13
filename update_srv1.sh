@@ -17,5 +17,6 @@ https://raw.githubusercontent.com/tmferreira-ti/SOII/refs/heads/main/Confs/srv1/
 mkdir -p /etc/bind/domains/fatecads/
 
 wget https://raw.githubusercontent.com/tmferreira-ti/SOII/refs/heads/main/Confs/srv1/dns/db.fatecads.edu.br -O /etc/bind/domains/fatecads/db.fatecads.edu.br
+pause
 reboot
 
